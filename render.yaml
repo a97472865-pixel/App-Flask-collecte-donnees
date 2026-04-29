@@ -6,4 +6,4 @@ services:
         apt-get update
         apt-get install -y r-base
         pip install -r requirements.txt
-    startCommand: gunicorn app:application 
+    startCommand: gunicorn application:application 
